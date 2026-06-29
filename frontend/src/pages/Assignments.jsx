@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5000/api/assignments'
-const STUDENTS_API = 'http://localhost:5000/api/students'
+const API = 'https://student-grade-tracker-x0xb.onrender.com/api/assignments'
+const STUDENTS_API = 'https://student-grade-tracker-x0xb.onrender.com/api/students'
 
 function Assignments({ darkMode }) {
   const { studentId } = useParams()

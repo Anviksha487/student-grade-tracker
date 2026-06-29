@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5000/api/students'
+const API = 'https://student-grade-tracker-x0xb.onrender.com/api/students'
 
 function AddStudent({ darkMode }) {
   const navigate = useNavigate()

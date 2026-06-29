@@ -4,7 +4,7 @@ import axios from 'axios'
 import jsPDF from 'jspdf'
 import html2canvas from 'html2canvas'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
-const API = 'http://localhost:5000/api/students'
+const API = 'https://student-grade-tracker-x0xb.onrender.com/api/students'
 
 function StudentDetail({ darkMode }) {
   const { id } = useParams()

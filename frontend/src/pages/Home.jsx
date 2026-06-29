@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5000/api/students'
+const API = 'https://student-grade-tracker-x0xb.onrender.com/api/students'
 
 function Home({ darkMode }) {
   const [students, setStudents] = useState([])
