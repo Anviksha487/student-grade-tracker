@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'https://student-grade-tracker-x0xb.onrender.com/api/students'
+const API = 'https://student-grade-tracker-x0xb.onrender.com/api/auth'
 
 function Login() {
   const navigate = useNavigate()
